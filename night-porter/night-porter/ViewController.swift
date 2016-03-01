@@ -12,6 +12,17 @@ class ViewController: UIViewController {
 
     @IBAction func changeBackground(sender: AnyObject) {
         view.backgroundColor = UIColor.darkGrayColor()
+        
+        // get all subviews inside the top-level view
+        let allSubviews = view.subviews
+        
+        for eachView in allSubviews {
+
+            if eachView is UILabel {
+                let myLabel = eachView as! UILabel
+                myLabel.textColor = UIColor.lightGrayColor()
+            }
+        }
     }
     
     override func viewDidLoad() {
