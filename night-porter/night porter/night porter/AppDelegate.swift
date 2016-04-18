@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  night-porter
+//  night porter
 //
-//  Created by Glenn Wiley on 2/24/16.
+//  Created by Glenn Wiley on 3/1/16.
 //  Copyright © 2016 Glenn Wiley. All rights reserved.
 //
 
